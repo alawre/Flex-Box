@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  padding: 20px;
+  color: #ffffff;
+  font-family: Tahoma;
+}
+
+main {
+  border: 1px solid black;
+  background: #000000;
+  padding: 20px;
+}
+header {
+  border: 1px solid black;
+  background: blue;
+  padding: 20px;
+}
+.hero {
+  border: 1px solid black;
+  background: green;
+  padding: 20px;
+}
+.content {
+  border: 1px solid black;
+  background: red;
+  padding: 20px;
+  flex: 1;
+}
+.sidebar {
+  border: 1px solid black;
+  background: orange;
+  padding: 20px;
+  flex: 0 1 300px;
+  ...;
+}
+.footer {
+  border: 1px solid black;
+  background: purple;
+  padding: 20px;
+}
+@media screen and (min-width: 640px) {
+  .flex-container {
+    display: flex;
+  }
+}
+.wrapper {
+  margin: auto;
+  max-width: 75rem;
+}
